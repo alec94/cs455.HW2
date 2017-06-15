@@ -3,6 +3,10 @@ Class: CS 455
 Assignment: HW2-PC
 Date: 3/6/17
 
+Assignment 2: Scalable Server Design: Using Thread Pools to Manage Active Network Connections
+
+As part of this assignment you will be developing a server to handle network traffic by designing and building your own thread pool. This thread pool will have a configurable number of threads that will be used to perform tasks relating to network communications. Specifically, you will use this thread pool to manage all tasks relating to network communications. This includes: managing incoming network connections, receiving data over these network connections, and sending data over any of these links.
+
 Files:
 	cs455/scaling/client/Client.java - Client that sends data to the server
 	cs455/scaling/client/ReceivingThread.java - Receives data from the server for the client
